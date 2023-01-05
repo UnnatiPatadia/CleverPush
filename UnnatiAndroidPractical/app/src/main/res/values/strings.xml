@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UnnatiAndroidPractical</string>
+    <string name="lbl_subscribe">Subscribe</string>
+    <string name="lbl_unsubscribe">Unsubscribe </string>
+    <string name="lbl_get_notifications">Get Notifications</string>
+    <string name="confirm_exit_form">Are you sure you want to Exit?</string>
+    <string name="channel_id">ExWvJmdPNSAnndtsv</string>
+
+    <!--Fixed titles-->
+    <string name="ok_value">OK</string>
+    <string name="title_alert">ALERT</string>
+    <string name="no_value">NO</string>
+    <string name="yes_value">YES</string>
+</resources>

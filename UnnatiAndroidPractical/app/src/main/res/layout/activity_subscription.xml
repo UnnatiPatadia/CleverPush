@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".SubscriptionActivity">
+
+    <Button
+        android:id="@+id/btnSubscribe"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="@string/lbl_subscribe"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15ssp" />
+
+    <Button
+        android:id="@+id/btnUnsubscribe"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSubscribe"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@color/black"
+        android:text="@string/lbl_unsubscribe"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15ssp" />
+
+    <Button
+        android:id="@+id/btnGetNotification"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnUnsubscribe"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@color/black"
+        android:text="@string/lbl_get_notifications"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15ssp" />
+
+</RelativeLayout>
